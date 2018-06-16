@@ -1,0 +1,134 @@
+* {
+	box-sizing:border-box;
+	margin: 0;
+}	
+body {
+}
+/*...........nav............ */
+ul li a:hover{
+	transition:color 2s; 
+	color:#609CE1;
+}
+/*...........nav............ */
+h1,h2{
+	color:#091D34;
+}
+.topsection{
+	content: "";
+    clear: both;
+    display: table;
+    margin: 5% auto;
+}
+
+.topleft img{
+	box-shadow:0px 0px 6px 2px #0F2E52;
+	margin: 8px;
+}
+.topright{	
+	text-align:center;
+}
+.topright h1 {    
+	font-size:70px;
+    font-family: monospace;
+    font-weight: inherit;
+	margin: 0px 0px 0px 8px;
+}
+.topright h2 {
+    font-size: 34px;
+    font-family: monospace;
+    font-weight: inherit;
+    margin: 8px 14px;
+}
+.toprighticon{
+	margin: 16px 0px 0px 4px;
+}
+.email{
+	margin: 16px auto;
+	content: "";
+    clear: both;
+    display: table;
+}
+.email img{
+    width: 26px;
+    height: 22px;
+	float:left;
+}
+.email p{
+	font-size:17px;
+	float:left;
+	color:#0F2E52;
+}
+.topicon{
+	width:44px;
+	margin-left:12px;
+	transition:transform 2s,box-shadow 2s;
+}
+.topicon:hover{
+	transform: rotate(360deg) ;
+    box-shadow: inset 1px 1px 12px 8px #609CE1;
+}
+.header{
+	font-size: 22px;
+    font-stretch: ultra-condensed;
+    font-family: monospace;
+	padding:2px;
+}
+.headericon{
+	width:34px;
+	float:left;
+}
+.discription{
+	margin: 0% 5%;
+	font-size:17px;
+}
+.mainsection{ 
+   margin: auto;
+}
+
+.fieldheader{
+	font-size:22px;
+}
+i{
+	font-size:18px;
+}
+.education-field {
+    margin: 12px 8%;
+    border: 1px groove #569CEB;
+    padding: 12px;
+}
+.fieldiscription{font-size:17px;}
+.section-Skills{
+	padding:10px;
+}
+td{
+	text-align:left;
+	padding:8px 14px;
+	
+}
+progess{
+	width:50vw;
+}
+progress[value] {
+	width:50vw;
+	height: 20px;
+	background-color:#eee;	
+}
+progress[value]::-webkit-progress-bar {
+	background-color: white;
+}
+progress::-moz-progress-bar {
+	background: #0F2E52; 
+}
+progress::-webkit-progress-value {
+	background: #0F2E52; 
+}
+progress {
+	color: #0F2E52; 
+}
+.footersection {
+    padding: 16px;
+    background-color: #0F2E52;
+    text-align: center;
+    color: #609CE1;    
+	font-size: 17px;
+}
